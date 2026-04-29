@@ -1,0 +1,44 @@
+# ── Build output ─────────────────────────────────────────────────────────────
+build/
+out/
+target/
+
+# ── Gradle ───────────────────────────────────────────────────────────────────
+.gradle/
+# Keep the wrapper jar and properties — needed to build without a local install
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# ── IDE — IntelliJ IDEA ──────────────────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ── IDE — Eclipse ────────────────────────────────────────────────────────────
+.classpath
+.project
+.settings/
+bin/
+
+# ── IDE — VS Code ────────────────────────────────────────────────────────────
+.vscode/
+
+# ── OS junk ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Secrets / local config ───────────────────────────────────────────────────
+*.env
+.env.*
+local.properties
+gradle-local.properties
+crowdin.credentials
+
+# ── Test & coverage artefacts ────────────────────────────────────────────────
+*.exec
+*.class
+
+# ── Lombok ───────────────────────────────────────────────────────────────────
+lombok.config

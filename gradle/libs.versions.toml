@@ -1,0 +1,16 @@
+[versions]
+zap = "2.17.0"
+junit-jupiter = "6.0.3"
+hamcrest = "3.0"
+mockito = "5.22.0"
+
+[libraries]
+zap = { module = "org.zaproxy:zap", version.ref = "zap" }
+test-junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }
+test-junit-platformLauncher = { module = "org.junit.platform:junit-platform-launcher" }
+test-hamcrest = { module = "org.hamcrest:hamcrest-library", version.ref = "hamcrest" }
+test-mockito = { module = "org.mockito:mockito-junit-jupiter", version.ref = "mockito" }
+
+[plugins]
+zaproxy-addon = { id = "org.zaproxy.add-on", version = "0.13.1" }
+lombok = { id = "io.freefair.lombok", version = "9.2.0" }
