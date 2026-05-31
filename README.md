@@ -68,7 +68,7 @@ cd zaproxy-custom-addons
 | Requirement | Version |
 |---|---|
 | Java | 17+ |
-| OWASP ZAP | 2.15+ |
+| ZAP | 2.15+ |
 | commonlib add-on | >= 1.38.0 |
 
 ---
